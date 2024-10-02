@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-section {
+    background-color: #f4f4f4;
+    padding: 60px 0;
+}
+
+.about-content {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Heading Styles */
+.about-content h3 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.about-content h1 {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-content h1 span {
+    color: #FF5722; /* Accent color for 'My Portfolio' */
+}
+
+/* Paragraph Styles */
+.about-content p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Image Styles */
+.about-content img {
+    max-width: 200px; /* Adjust the size as needed */
+    border-radius: 50%; /* Make the image circular */
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .about-content h1 {
+        font-size: 36px;
+    }
+
+    .about-content p {
+        font-size: 16px;
+    }
+
+    .about-content img {
+        max-width: 150px;
+    }
+}
